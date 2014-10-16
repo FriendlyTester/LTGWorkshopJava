@@ -30,6 +30,7 @@ public class A_DriverExamples {
 
     @Test
     public void A_CreateInternetExplorerDriver() {
+        System.setProperty("webdriver.ie.driver", "C:\\Users\\Richard\\Desktop\\IEDriverServer.exe");
         InternetExplorerDriver Driver = new InternetExplorerDriver();
     }
 
