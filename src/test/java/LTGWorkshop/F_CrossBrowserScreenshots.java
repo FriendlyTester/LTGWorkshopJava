@@ -27,7 +27,7 @@ public class F_CrossBrowserScreenshots {
         Driver.navigate().to("http://thefriendlytester.co.uk");
         File scrFile = ((TakesScreenshot) Driver).getScreenshotAs(OutputType.FILE);
         // Now you can do whatever you need to do with it, for example copy somewhere
-        FileUtils.copyFile(scrFile, new File("C:\\UsersRichardDesktop\\FirefoxScreenshot.jpg"));
+        FileUtils.copyFile(scrFile, new File("C:\\Users\\Richard\\Desktop\\FirefoxScreenshot.jpg"));
         Driver.quit();
     }
 
@@ -36,7 +36,7 @@ public class F_CrossBrowserScreenshots {
         Driver.navigate().to("http://thefriendlytester.co.uk");
         File scrFile = ((TakesScreenshot) Driver).getScreenshotAs(OutputType.FILE);
         // Now you can do whatever you need to do with it, for example copy somewhere
-        FileUtils.copyFile(scrFile, new File("C:\\UsersRichardDesktop\\FirefoxScreenshot.jpg"));
+        FileUtils.copyFile(scrFile, new File("C:\\Users\\Richard\\Desktop\\FirefoxScreenshot.jpg"));
         Driver.quit();
     }
 }
