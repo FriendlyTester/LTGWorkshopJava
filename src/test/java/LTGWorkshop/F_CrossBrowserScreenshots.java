@@ -32,11 +32,12 @@ public class F_CrossBrowserScreenshots {
     }
 
     private void TakeScreenshotChrome() throws IOException {
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Richard\\Desktop\\chromedriver.exe");
         ChromeDriver Driver = new ChromeDriver();
         Driver.navigate().to("http://thefriendlytester.co.uk");
         File scrFile = ((TakesScreenshot) Driver).getScreenshotAs(OutputType.FILE);
         // Now you can do whatever you need to do with it, for example copy somewhere
-        FileUtils.copyFile(scrFile, new File("C:\\Users\\Richard\\Desktop\\FirefoxScreenshot.jpg"));
+        FileUtils.copyFile(scrFile, new File("C:\\Users\\Richard\\Desktop\\ChromeScreenshot.jpg"));
         Driver.quit();
     }
 }
