@@ -44,13 +44,4 @@ public class C_Locators {
         //13/10/2014 it was number 9
         WebElement ElementByTagFindAll = inputs.get(9);
     }
-
-    //Game time!
-    //http://flukeout.github.io/
-
-    //CssSelector Checking with Chrome
-
-    //General rule.
-    //If you are struggling for a locator, ask for one to be created.
-    //Will save you a lot of time in the long run.
 }
